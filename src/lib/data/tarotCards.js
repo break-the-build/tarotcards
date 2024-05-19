@@ -2,61 +2,61 @@ export const tarotCards = [
     {
         "name": "The Fool",
         "description": "The Fool represents new beginnings, having faith in the future, and being inexperienced.",
-        "image": "/images/the-fool.jpg"
+        "image": "/images/the-fool.webp"
     },
     {
         "name": "The Magician",
         "description": "The Magician signifies creativity, confidence, and the power to manifest your desires.",
-        "image": "/images/the-magician.jpg"
+        "image": "/images/the-magician.webp"
     },
     {
         "name": "The High Priestess",
         "description": "The High Priestess represents intuition, mystery, and the subconscious mind.",
-        "image": "/images/the-high-priestess.jpg"
+        "image": "/images/the-high-priestess.webp"
     },
     {
         "name": "The Empress",
         "description": "The Empress signifies abundance, fertility, and nurturing qualities.",
-        "image": "/images/the-empress.jpg"
+        "image": "/images/the-empress.webp"
     },
     {
         "name": "The Emperor",
         "description": "The Emperor represents authority, structure, and control.",
-        "image": "/images/the-emperor.jpg"
+        "image": "/images/the-emperor.webp"
     },
     {
         "name": "The Hierophant",
         "description": "The Hierophant symbolizes tradition, spiritual guidance, and conformity.",
-        "image": "/images/the-hierophant.jpg"
+        "image": "/images/the-hierophant.webp"
     },
     {
         "name": "The Lovers",
         "description": "The Lovers signify relationships, choices, and harmony.",
-        "image": "/images/the-lovers.jpg"
+        "image": "/images/the-lovers.webp"
     },
     {
         "name": "The Chariot",
         "description": "The Chariot represents determination, willpower, and overcoming obstacles.",
-        "image": "/images/the-chariot.jpg"
+        "image": "/images/the-chariot.webp"
     },
     {
         "name": "Strength",
         "description": "Strength signifies courage, inner strength, and resilience.",
-        "image": "/images/strength.jpg"
+        "image": "/images/strength.webp"
     },
     {
         "name": "The Hermit",
         "description": "The Hermit represents introspection, solitude, and inner wisdom.",
-        "image": "/images/the-hermit.jpg"
+        "image": "/images/the-hermit.webp"
     },
     {
         "name": "Wheel of Fortune",
         "description": "The Wheel of Fortune symbolizes cycles, fate, and change.",
-        "image": "/images/wheel-of-fortune.jpg"
+        "image": "/images/wheel-of-fortune.webp"
     },
     {
         "name": "Justice",
         "description": "Justice represents fairness, truth, and law.",
-        "image": "/images/justice.jpg"
+        "image": "/images/justice.webp"
     },
 ];
