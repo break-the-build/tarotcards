@@ -4,9 +4,16 @@
   export let card;
   export let isFlipped = false;
   export let onClick;
+
+  function handleFlip() {
+    if (navigator.vibrate) {
+      navigator.vibrate(100); // Vibrate for 100 milliseconds
+    }
+    onClick();
+  }
 </script>
 
-<div class="max-w-sm w-64 h-auto rounded overflow-hidden shadow-lg cursor-pointer bg-gray-800 text-white" on:click={onClick}>
+<div class="max-w-sm w-64 h-auto rounded overflow-hidden shadow-lg cursor-pointer bg-gray-800 text-white" on:click={handleFlip}>
   {#if isFlipped}
     <img class="w-full h-64 object-cover" src={card.image} alt={card.name} />
     <div class="px-6 py-4 flex flex-col h-48">
