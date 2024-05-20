@@ -1,3 +1,5 @@
+<!-- TarotCard.svelte -->
+
 <script>
   export let card;
   export let isFlipped = false;
