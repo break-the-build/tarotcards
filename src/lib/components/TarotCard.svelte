@@ -6,16 +6,22 @@
   export let onClick;
 </script>
 
-<div class="max-w-sm w-64 h-96 rounded overflow-hidden shadow-lg cursor-pointer" on:click={onClick}>
+<div class="max-w-sm w-64 h-auto rounded overflow-hidden shadow-lg cursor-pointer bg-gray-800 text-white" on:click={onClick}>
   {#if isFlipped}
     <img class="w-full h-64 object-cover" src={card.image} alt={card.name} />
-    <div class="px-6 py-4">
+    <div class="px-6 py-4 flex flex-col h-48">
       <div class="font-bold text-xl mb-2">{card.name}</div>
-      <p class="text-gray-700 text-base">{card.description}</p>
+      <p class="text-gray-300 text-base overflow-y-auto flex-grow">{card.description}</p>
     </div>
   {:else}
-    <div class="w-full h-full bg-gray-300 flex items-center justify-center">
+    <div class="w-full h-96 bg-gray-600 flex items-center justify-center">
       <p class="text-2xl font-bold">Click to Flip</p>
     </div>
   {/if}
 </div>
+
+<style>
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
+</style>
