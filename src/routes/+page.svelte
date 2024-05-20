@@ -36,11 +36,13 @@
   <h1 class="text-4xl font-bold mb-8">Tarot Card Reader</h1>
 
   {#if isMobile}
-    <div class="w-full max-w-md">
+    <div class="w-full max-w-md flex flex-col items-center">
       {#each drawnCards as card, index}
-        <div class="mb-4">
-          <h2 class="text-xl font-semibold mb-2">{index === 0 ? 'Past' : index === 1 ? 'Present' : 'Future'}</h2>
-          <TarotCard card={card} isFlipped={flippedStates[index]} onClick={() => flipCard(index)} />
+        <div class="mb-4 w-full flex justify-center">
+          <div class="text-center">
+            <h2 class="text-xl font-semibold mb-2">{index === 0 ? 'Past' : index === 1 ? 'Present' : 'Future'}</h2>
+            <TarotCard card={card} isFlipped={flippedStates[index]} onClick={() => flipCard(index)} />
+          </div>
         </div>
       {/each}
     </div>
