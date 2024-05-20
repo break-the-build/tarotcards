@@ -14,13 +14,17 @@
       <p class="text-gray-300 text-base overflow-y-auto flex-grow">{card.description}</p>
     </div>
   {:else}
-    <div class="w-full h-96 bg-gray-600 flex items-center justify-center">
+    <div class="w-full h-112 bg-gray-600 flex items-center justify-center">
       <p class="text-2xl font-bold">Click to Flip</p>
     </div>
   {/if}
 </div>
 
 <style>
+  .h-112 {
+    height: 28rem; /* 112 * 0.25rem */
+  }
+
   .overflow-y-auto {
     overflow-y: auto;
   }
