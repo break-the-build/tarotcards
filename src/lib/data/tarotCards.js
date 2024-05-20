@@ -59,4 +59,29 @@ export const tarotCards = [
         "description": "Justice represents fairness, truth, and law.",
         "image": "/images/justice.webp"
     },
+    {
+        "name": "The Hanged Man",
+        "description": "The Hanged Man signifies suspension, letting go, and new perspectives.",
+        "image": "/images/the-hanged-man.webp"
+    },
+    {
+        "name": "Death",
+        "description": "Death symbolizes transformation, endings, and new beginnings.",
+        "image": "/images/death.webp"
+    },
+    {
+        "name": "Temperance",
+        "description": "Temperance represents balance, moderation, and patience.",
+        "image": "/images/temperance.webp"
+    },
+    {
+        "name": "The Devil",
+        "description": "The Devil signifies temptation, materialism, and bondage.",
+        "image": "/images/the-devil.webp"
+    },
+    {
+        "name": "The Tower",
+        "description": "The Tower represents sudden change, upheaval, and revelation.",
+        "image": "/images/the-tower.webp"
+    },
 ];
