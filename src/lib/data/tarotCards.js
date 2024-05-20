@@ -84,4 +84,29 @@ export const tarotCards = [
         "description": "The Tower represents sudden change, upheaval, and revelation.",
         "image": "/images/the-tower.webp"
     },
+    {
+        "name": "The Star",
+        "description": "The Star symbolizes hope, inspiration, and serenity.",
+        "image": "/images/the-star.webp"
+    },
+    {
+        "name": "The Moon",
+        "description": "The Moon represents illusion, intuition, and the unconscious.",
+        "image": "/images/the-moon.webp"
+    },
+    {
+        "name": "The Sun",
+        "description": "The Sun signifies joy, success, and vitality.",
+        "image": "/images/the-sun.webp"
+    },
+    {
+        "name": "Judgement",
+        "description": "Judgement represents reflection, reckoning, and awakening.",
+        "image": "/images/judgement.webp"
+    },
+    {
+        "name": "The World",
+        "description": "The World symbolizes completion, achievement, and wholeness.",
+        "image": "/images/the-world.webp"
+    }
 ];
