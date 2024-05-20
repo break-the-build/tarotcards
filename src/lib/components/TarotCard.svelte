@@ -6,7 +6,9 @@
   export let onClick;
 
   function handleFlip() {
-    if (navigator.vibrate) {
+    // Check if the device is mobile
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile && navigator.vibrate) {
       navigator.vibrate(100); // Vibrate for 100 milliseconds
     }
     onClick();
